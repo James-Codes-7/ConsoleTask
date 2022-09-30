@@ -161,7 +161,7 @@ public class TeacherSite extends StudentSite {
 			int count=0;
 			while(result.next())
 			{
-				System.out.println("Attend no:"+result.getInt(1)+" StudentId:"+result.getInt(2)
+				System.out.println(StudentId:"+result.getInt(2)
 				+" Date:"+result.getString(3)+" Status:"+result.getString(4)+" Total Leaves:"+result.getInt(5)
 				+"  leave Permit:"+result.getInt(6));
 				count++;
@@ -218,7 +218,7 @@ public class TeacherSite extends StudentSite {
 			System.out.println();
 			while(result.next())
 			{
-				System.out.println("Attend no:"+result.getInt(1)+" StudentId:"+result.getInt(2)
+				System.out.println( StudentId:"+result.getInt(2)
 				+" Date:"+result.getString(3)+" Status:"+result.getString(4)+" Total Leaves:"+result.getInt(5)
 				+"  leave Permit:"+result.getInt(6));
 				System.out.println();
